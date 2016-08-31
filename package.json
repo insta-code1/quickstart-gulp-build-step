@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nodemon": "nodemon --watch build"
   },
   "author": "instacode",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "babel-preset-es2015": "^6.14.0",
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^6.1.2",
     "gulp-cached": "^1.1.0",
     "gulp-load-plugins": "^1.2.4",
